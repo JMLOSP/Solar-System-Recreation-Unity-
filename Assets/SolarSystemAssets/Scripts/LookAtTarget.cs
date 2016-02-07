@@ -7,6 +7,7 @@ public class LookAtTarget : MonoBehaviour
 
   void Start()
   {
+    //Si target es nulo seleccionamos target
     if (target != null)
       return;
 
