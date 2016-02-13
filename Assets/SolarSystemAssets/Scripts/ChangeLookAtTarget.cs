@@ -12,7 +12,7 @@ public class ChangeLookAtTarget : MonoBehaviour
       return;
 
     target = this.gameObject;
-    Debug.Log("ChangeLookAtTarget target not specified. Defaulting to parent GameObject");
+    Debug.Log(string.Format("ChangeLookAtTarget target not specified. Defaulting to parent GameObject, name: {0}",target.name.ToString()));
   }
 
   // Called when MouseDown on this gameObject

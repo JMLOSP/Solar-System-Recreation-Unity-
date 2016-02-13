@@ -12,7 +12,6 @@ public class LookAtTarget : MonoBehaviour
       return;
 
     target = this.gameObject;
-    Debug.Log("LookAtTarget target not specified. Defaulting to parent GameObject");
   }
 
   // Update is called once per frame

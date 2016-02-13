@@ -4,7 +4,7 @@ using System.Collections;
 public class RotateAround : MonoBehaviour
 {
   public Transform target; // the object to rotate around
-  public int speed; // the speed of rotation
+  public float speed;      // the speed of rotation
 
   void Start()
   {
